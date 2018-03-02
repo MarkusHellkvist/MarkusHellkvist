@@ -7268,7 +7268,7 @@ for (var i = 0; i < roombnb.length; i++) {
 }
 
  
-//var valuestopie2 = Object.keys(conuts).map(function(key){ return counts[key] });
+
 
 var data4 = [{
   values: Object.keys(counts).map(function(key){ return counts[key] }),
