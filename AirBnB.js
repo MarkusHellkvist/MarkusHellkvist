@@ -7209,8 +7209,6 @@ var layout1 = {
 
   var data2 = [ trace2 ];
   var layout2  = {
-    bargap: 0.2,
-    bargroupgap: 0.3, 
     title: 'Histogram, Spred Rental Fee',
     xaxis: {
       title: 'Price',
@@ -7240,8 +7238,6 @@ var trace3 = {
 
 var data3 = [ trace3 ];
 var layout3  = {
-  bargap: 0.2,
-  bargroupgap: 0.3, 
   title: 'Histogram, Guest/Room',
   xaxis: {
     title: 'No of Guests',
