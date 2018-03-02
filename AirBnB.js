@@ -7187,7 +7187,7 @@
 var layout1 = {
     title: 'ScatterPlot, Price/Reviews',
     xaxis: {
-      title: 'Reviews',
+      title: 'Price',
       titlefont: {
         family: 'cursive, monospace',
         size: 14,
@@ -7196,7 +7196,7 @@ var layout1 = {
     },
   
     yaxis: {
-      title: 'Quantity',
+      title: 'Reviews',
       titlefont: {
         family: 'cursive, monospace',
         size: 14,
