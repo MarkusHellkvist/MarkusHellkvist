@@ -104,10 +104,18 @@ namespace WindowsFormsApp4
                 chart1.Series["Series1"].Points.AddY(a.Price);
             }
 
+            Axis ax = chart1.ChartAreas[0].AxisX;
+            ax.Minimum = -50;
+            ax.Maximum = 2000;
+            ax.Interval = 500;
+            ax.IntervalOffset = -500;
+
+
             chart1.Series["Series1"].ChartType = SeriesChartType.Column;
             chart1.Titles.Add("Boston");
             chart1.ChartAreas[0].AxisX.Title = "Rum";
             chart1.ChartAreas[0].AxisY.Title = "Pris";
+            
 
             foreach (Accommodations2 a in ListaAmsterdam)
             {
