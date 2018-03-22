@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
 using System.Data.SqlClient;
 
+//Tydlig kod. Lätt att förstå vad den gör. Skriv gärna egna kommentarer för att göra koden ännu tydligare! Bra jobbat! /MW
 
 namespace WindowsFormsApp4
 {
